@@ -1,6 +1,7 @@
-🛒 E-commerce Sales Dashboard – AWS QuickSight Project
+## 🛒 E-commerce Sales Dashboard – AWS QuickSight Project
 ## Project Overview
 This project showcases an interactive E-commerce Sales Dashboard built using Amazon QuickSight.
+
 It visualizes key business metrics such as:
 
 📈 Total Revenue, Profit, and Cost
@@ -16,25 +17,36 @@ It visualizes key business metrics such as:
 The dataset is stored in Amazon Redshift, with a custom SQL transformation layer for KPIs and derived metrics.
 
 
-🧰 Tech Stack
+ ### 🧰 Tech Stack
+
 Amazon Redshift – Cloud data warehouse
+
 Amazon S3 – Source data storage
+
 Amazon QuickSight – BI dashboard and visualizations
+
 Custom SQL – Data transformation layer
+
 CSV Files – Raw input datasets
 
 
-🗂️ Data Model
+### 🗂️ Data Model
+
 The dashboard is built on these primary tables:
 
-Table Name                  	Description
-orders	                Order-level sales data
-customers	              Customer info, location, signup date
-products              	Product categories and pricing
-delivery_logs	          Shipment and delivery details
+Table Name --- Description
+
+orders     --- Order-level sales data
+
+customers --- Customer info, location, signup date
+
+products --- Product categories and pricing
+
+delivery_logs --- Shipment and delivery details
 
 
-🎨 Dashboard Design
+### 🎨 Dashboard Design
+
 The dashboard is organized into the following sections:
 
 1. Executive Summary
